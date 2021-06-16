@@ -1,0 +1,4 @@
+file(GLOB SRC
+  "*.S"
+)
+file(COPY ${SRC} DESTINATION ${CMAKE_BINARY_DIR}/src)
